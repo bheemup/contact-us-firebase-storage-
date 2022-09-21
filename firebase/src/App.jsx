@@ -19,7 +19,7 @@ function App() {
        value =event.target.value;
 
        setData({...data,[name]:value})
-       console.log(data)
+      // console.log(data)
   }
 
   const postdata = async(e)=>{
